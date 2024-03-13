@@ -3,6 +3,8 @@
       let choice = ["rock", "paper",
       "scissors"];
 
+      let playerSelection = prompt("make your choice. Rock, Paper, Scissors")
+
    //random computer choice //
         let computerSelection = choice[Math.floor(Math.random()*choice.length)];
 
@@ -25,8 +27,8 @@
     }
     
          
-      const playerSelection = "scissors
-      "
+
+    //const playerSelection = "rock"
       //const computerSelection = computerChoice();
       console.log(playRound(playerSelection, computerSelection));
     
